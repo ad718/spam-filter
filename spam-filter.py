@@ -76,7 +76,7 @@ print('n_ham :', n_ham)
           
           
 def classify(txt):
-    """Return ()'SPAM'/'HAM', prob_of_being_spam) """
+    """Return ('SPAM'/'HAM', prob_of_being_spam) """
     p_s = n_spam / (n_spam + n_ham)
     p_h = n_ham / (n_spam + n_ham)
     
